@@ -20,6 +20,7 @@ gz
  1018  cd nagioscore-nagios-4.4.2/
  1019  ls -lrt
  1020  ./configure
+ 1020  yum install -y make
  1021  make all
  1022  make install-groups-users
  1023  usermod -a -G nagios apache
